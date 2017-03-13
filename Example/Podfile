@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'StringParser_Example' do
+  pod 'StringParser', :path => '../'
+
+  target 'StringParser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
