@@ -1,0 +1,16 @@
+PODS:
+  - StringParser (0.1.0)
+
+DEPENDENCIES:
+  - StringParser (from `../`)
+
+EXTERNAL SOURCES:
+  StringParser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StringParser: 875010bfbccc117e57279d14482c2784ded09720
+
+PODFILE CHECKSUM: fd14a6561a60e019701f5ff6f0fa2d755a297de6
+
+COCOAPODS: 1.2.0

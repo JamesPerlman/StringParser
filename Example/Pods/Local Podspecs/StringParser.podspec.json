@@ -1,0 +1,22 @@
+{
+  "name": "StringParser",
+  "version": "0.1.0",
+  "summary": "A short description of StringParser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jam.e.perl@gmail.com/StringParser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jam.e.perl@gmail.com": "jam.e.perl@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jam.e.perl@gmail.com/StringParser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "StringParser/Classes/**/*"
+}

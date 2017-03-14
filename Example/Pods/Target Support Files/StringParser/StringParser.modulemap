@@ -1,0 +1,6 @@
+framework module StringParser {
+  umbrella header "StringParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

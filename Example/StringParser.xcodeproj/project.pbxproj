@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B6CF08A88A0A7346D3B6750 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B6CF08A88A0A7346D3B6750 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1BC7338D56004536647065CF /* Pods-StringParser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StringParser_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-StringParser_Example/Pods-StringParser_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2DABA0028B5C41F2FCFBF4E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2DABA0028B5C41F2FCFBF4E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2FD203F3A5E62ECB63E9602C /* Pods-StringParser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StringParser_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StringParser_Tests/Pods-StringParser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* StringParser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringParser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7BFF09F0E91F60C7C96657F2 /* Pods-StringParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StringParser_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StringParser_Tests/Pods-StringParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7DCD5235530652A4A6074B54 /* Pods_StringParser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StringParser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A50B22A520EB21E8EC79119B /* StringParser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = StringParser.podspec; path = ../StringParser.podspec; sourceTree = "<group>"; };
+		A50B22A520EB21E8EC79119B /* StringParser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StringParser.podspec; path = ../StringParser.podspec; sourceTree = "<group>"; };
 		BB621783CAF375EB685D3E45 /* Pods_StringParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StringParser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D574CB424B5EC3CAC5F0EA9E /* Pods-StringParser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StringParser_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StringParser_Example/Pods-StringParser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6NK34BJQZ4;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6NK34BJQZ4;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = D574CB424B5EC3CAC5F0EA9E /* Pods-StringParser_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NK34BJQZ4;
 				INFOPLIST_FILE = StringParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = 1BC7338D56004536647065CF /* Pods-StringParser_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NK34BJQZ4;
 				INFOPLIST_FILE = StringParser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FD203F3A5E62ECB63E9602C /* Pods-StringParser_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6NK34BJQZ4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BFF09F0E91F60C7C96657F2 /* Pods-StringParser_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6NK34BJQZ4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
